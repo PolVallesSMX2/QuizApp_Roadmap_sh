@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+
+.option-btn {
+  color: #ccc;
+  border: 1px solid oklch(0.75 0.183 55.934);
+  padding: 12px;
+  margin: 8px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Cuando el botón se deshabilita pero no es ni correcto ni incorrecto */
+.option-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Clases de feedback que inyectamos dinámicamente */
+.option-btn.correct {
+  background-color: #2ecc71 !important; /* Verde */
+  color: white;
+  opacity: 1 !important;
+}
+
+.option-btn.incorrect {
+  background-color: #e74c3c !important; /* Rojo */
+  color: white;
+  opacity: 1 !important;
+}
+
+.timer.danger {
+  color: red;
+  font-weight: bold;
+  animation: blink 1s infinite;
+  font-weight: 700;
+  animation: latido 0.5s infinite ease-in-out alternate;
+}
+
+@keyframes latido {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+body {
+  background: #25242b;
+  color: white;
+  font-family: system-ui;
+}

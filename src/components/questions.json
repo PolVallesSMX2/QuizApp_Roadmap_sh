@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es el lenguaje de programación principal para el desarrollo web frontend?",
+    "options": [
+      { "id": "a", "text": "Python" },
+      { "id": "b", "text": "JavaScript" },
+      { "id": "c", "text": "C++" },
+      { "id": "d", "text": "Java" }
+    ],
+    "correctAnswerId": "b"
+  },
+  {
+    "id": 2,
+    "question": "¿Qué significa CSS?",
+    "options": [
+      { "id": "a", "text": "Creative Style Sheets" },
+      { "id": "b", "text": "Computer Style Sheets" },
+      { "id": "c", "text": "Cascading Style Sheets" },
+      { "id": "d", "text": "Colorful Style Sheets" }
+    ],
+    "correctAnswerId": "c"
+  }
+]
